@@ -28,7 +28,7 @@
 		9A79FEA323983AA6006D8474 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A79FEA223983AA6006D8474 /* TabBarController.swift */; };
 		9A79FEA523983AFB006D8474 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A79FEA423983AFB006D8474 /* NavigationController.swift */; };
 		9A88D5E923AF78EE0097B2A2 /* SortStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88D5E823AF78EE0097B2A2 /* SortStruct.swift */; };
-		9A9A2C9223A4F0450084E87B /* a.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A2C9123A4F0450084E87B /* a.swift */; };
+		9A9A2C9223A4F0450084E87B /* SortTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A2C9123A4F0450084E87B /* SortTableCell.swift */; };
 		9A9A2C9423A4F10A0084E87B /* SortTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A2C9323A4F10A0084E87B /* SortTableView.swift */; };
 		9A9CAFA7233FC8A700258AB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CAFA6233FC8A700258AB8 /* AppDelegate.swift */; };
 		9A9CAFA9233FC8A700258AB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CAFA8233FC8A700258AB8 /* SceneDelegate.swift */; };
@@ -248,7 +248,7 @@
 		9A79FEA423983AFB006D8474 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		9A88D5E823AF78EE0097B2A2 /* SortStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortStruct.swift; sourceTree = "<group>"; };
 		9A8E428923C1467F001FC3A4 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
-		9A9A2C9123A4F0450084E87B /* a.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a.swift; sourceTree = "<group>"; };
+		9A9A2C9123A4F0450084E87B /* SortTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTableCell.swift; sourceTree = "<group>"; };
 		9A9A2C9323A4F10A0084E87B /* SortTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTableView.swift; sourceTree = "<group>"; };
 		9A9CAFA3233FC8A700258AB8 /* Uni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9CAFA6233FC8A700258AB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -372,7 +372,7 @@
 				9A8E42CC23C14680001FC3A4 /* nanopb.framework */,
 				9A8E42CE23C14680001FC3A4 /* paper_onboarding.framework */,
 				9A8E42D023C14680001FC3A4 /* Pods_Uni.framework */,
-				9A8E42D223C14680001FC3A4 /* Protobuf.framework */,
+				9A8E42D223C14680001FC3A4 /* protobuf.framework */,
 				9A8E42D423C14680001FC3A4 /* Realm.framework */,
 				9A8E42D623C14680001FC3A4 /* RealmSwift.framework */,
 				9A8E42D823C14680001FC3A4 /* SkeletonView.framework */,
@@ -384,7 +384,7 @@
 			isa = PBXGroup;
 			children = (
 				9A9A2C9323A4F10A0084E87B /* SortTableView.swift */,
-				9A9A2C9123A4F0450084E87B /* a.swift */,
+				9A9A2C9123A4F0450084E87B /* SortTableCell.swift */,
 				9A88D5E823AF78EE0097B2A2 /* SortStruct.swift */,
 			);
 			name = Sort;
@@ -721,10 +721,10 @@
 			remoteRef = 9A8E42CF23C14680001FC3A4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9A8E42D223C14680001FC3A4 /* Protobuf.framework */ = {
+		9A8E42D223C14680001FC3A4 /* protobuf.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Protobuf.framework;
+			path = protobuf.framework;
 			remoteRef = 9A8E42D123C14680001FC3A4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -821,7 +821,7 @@
 				9AF72EE2238DA43B00CD9FBA /* DropdownCell.swift in Sources */,
 				9A692B9523B556C000A94940 /* NetworkManager.swift in Sources */,
 				9A76AB4F23CB6743001140ED /* LaunchView.swift in Sources */,
-				9A9A2C9223A4F0450084E87B /* a.swift in Sources */,
+				9A9A2C9223A4F0450084E87B /* SortTableCell.swift in Sources */,
 				9A88D5E923AF78EE0097B2A2 /* SortStruct.swift in Sources */,
 				9AB858B6234F51FB00F5217B /* FacultyStruct.swift in Sources */,
 				9A00BC2223B9189E00915C98 /* University.swift in Sources */,
